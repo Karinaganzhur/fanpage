@@ -4,10 +4,11 @@ html {
 
 body {
     height: 100%;
-    background-color: white;
+    background-color: #520213;
 }
 a {
     text-decoration: none;
+    color:#907a3e;
 }
 
 .main {
@@ -23,18 +24,17 @@ a {
 .navbar {
     display:flex;
     justify-content: space-around;
-    color:#03396c;
-    background-color: #6b7782;
-    padding-top: 15px;
-    padding-bottom: 15px
+    background-color:#231f20;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 .header {
     text-align: center;
-    color:#9a0000;
-    font-size:30px;
-}
-p {
-    color:#9a0000;
+    color:#907a3e;
+    font-size:50px;
+    font-family: 'Merienda One', cursive;
+
 }
 
 .gallery {
@@ -43,11 +43,36 @@ p {
     justify-content: space-around;}
     
 .thumbnail-image {
-    height:200px;
-    width:220px;
-    border: 1px solid red;
+    height:250px;
+    
+    border: 2px solid black;
     margin:15px;
- 
+}
+#img {
+    height:310px;
+    width:220px;
 }
 
-    
+.aboutMain {
+    display:flex;
+    height:100%;
+}
+.leftPane {
+    width:45%;
+    font-size:20px;
+    color: white;
+}
+.rightPane {
+    width:55%;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf1YUaRM9VAKp2mdSLI2wpX1_2ivAJbUdsJsULaELpXLbxB0Cb");
+     background-repeat: no-repeat;   
+     background-size:100%;
+     margin:7px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #8e7932;
+    background-color: #231f20;
+}
