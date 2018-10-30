@@ -1,13 +1,14 @@
 html {
     height: 100%;
     width: 100%;
+    
 }
 
 body {
     height: 100%;
     background-color: #520213;
-    width:100%;
-    margin-left: 0px;
+    
+    margin: 0px;
 }
 a {
     text-decoration: none;
@@ -15,15 +16,16 @@ a {
 }
 
 .main {
-    height: 100%;
-     background-repeat: no-repeat;
-     background-size:100%;
-    background-image:url("http://www.trivium.org/sites/g/files/g2000005246/f/201709/header.jpg");
+  
+   height:135%;
+   
+   background-repeat: no-repeat;
+   background-image:url("http://www.trivium.org/sites/g/files/g2000005246/f/201709/header.jpg");
    
 }
 
 .social-image{
-    width: 25px;
+    width: 28px;
     margin: 15px;
 }
 .navbar {
