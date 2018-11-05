@@ -1,14 +1,16 @@
 html {
     height: 100%;
     width: 100%;
+    margin: 0px;
     
 }
 
 body {
     height: 100%;
     background-color: #520213;
-    
+    width:100%;
     margin: 0px;
+
 }
 a {
     text-decoration: none;
@@ -68,19 +70,27 @@ a {
 .aboutMain {
     display:flex;
     height:100%;
+    
 }
 .leftPane {
-    width:45%;
-    margin-left:4px;
+    width:50%;
+    
     font-size:20px;
     color: grey;
+    margin-left: 15px;
+    margin-right:10px;
+   
+    
+    
+    
 }
 .rightPane {
-    width:55%;
+    width:50%;
     background-image:url("http://thefirst3songs.com/wp-content/uploads/2011/07/MayhemFestival-Trivium-D3A2444-600p-cr.jpg");
      background-repeat: no-repeat;   
      background-size:100%;
      margin:7px;
+     margin-right:10px;
      
 }
 .footer {
@@ -89,6 +99,7 @@ a {
     font-size: 20px;
     color: #8e7932;
     background-color: #231f20;
+    
     
 }
 
