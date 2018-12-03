@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    width: 100%;
+    
     margin: 0px;
     
 }
@@ -18,14 +18,15 @@ a {
 }
 
 .main {
-  
-   height:135%;
-   
-   background-repeat: no-repeat;
-   background-image:url("http://www.trivium.org/sites/g/files/g2000005246/f/201709/header.jpg");
+   width:100%;
    
 }
-
+.tri {
+    height:100%;
+    width:100%;
+   
+    
+}
 .social-image{
     width: 28px;
     margin: 15px;
@@ -37,6 +38,7 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 22px;
+    width:100%;
 
 }
 .header {
@@ -52,9 +54,11 @@ a {
 }
 
 .gallery {
+  
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;}
+    justify-content:space-around;
+    }
     
 .thumbnail-image {
     height:250px;
@@ -62,10 +66,7 @@ a {
     border: 2px solid black;
     margin:15px;
 }
-#img {
-    height:310px;
-    width:220px;
-}
+
 
 .aboutMain {
     display:flex;
@@ -99,6 +100,7 @@ a {
     font-size: 20px;
     color: #8e7932;
     background-color: #231f20;
+    width:100%;
     
     
 }
@@ -125,19 +127,25 @@ iframe {
 
 
 #family {
-    text-align: center;
+   
     margin-bottom: 40px;
 }
 .info {
-    text-align: center;
+   
+     display:flex;
+
+    justify-content: center;
     
 }
 .box {
-     width: 700px;
+    
+    width: 700px;
     height: 100px;
     background-color: grey;
     color:white;
     border: 1px solid black;
-    margin-bottom: 20px;
-    margin-left: 330px;
+    margin-right: 5px;
 }
+    
+
+    
